@@ -101,7 +101,7 @@
 }
 
 .section-p1 {
-    padding: 40px 80px;
+    padding: 0 40px;
 }
 
 #feature {
@@ -165,7 +165,7 @@
 
 #product1 .pro .dis {
     text-align: start;
-    padding: 10px 0;
+    padding: 10px 10px;
 }
 
 #product1 .pro .dis span {
@@ -420,15 +420,18 @@
     gap: 11px;
     padding-top: 10px;
 }
+.footericon a{
+    color: #1a1a1a;
+}
+
 .footericon i{
    font-size: 25px;
    transition: 0.5s;
    
 }
+
 .footericon i:hover{
-    transform: translateY(-1px);
-    font-size: 30px;
-    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.2);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
 }
 .footer2{
     display: flex;
@@ -522,4 +525,73 @@
 #pagination a i{
     font-size: 16px;
     font-weight: 800;
+}
+#prodetails{
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    margin-left: 40px;
+}
+ .single-pro-image {
+    width: 40%;
+    margin-right: 50px;
+   
+}
+.small-img-group{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    
+}
+.small-img-col{
+    flex-basis: 25%;
+    cursor: pointer;
+}
+#prodetails .single-pro-details{
+    width: 50%;
+    padding-top: 30px;
+}
+#prodetails .single-pro-details h4{
+    font-size: 30px;
+}
+#prodetails .single-pro-details h4{
+    font-size: 25px;
+    /* border: 2px solid black; */
+    line-height: 80px;
+
+}
+#prodetails .single-pro-details h6{
+    font-size: 20px;
+}
+#prodetails .single-pro-details select{
+    display: block;
+    padding: 5px 10px;
+    margin: 10px 0;
+    margin-bottom: 10px;
+    width: 120px;
+  
+}
+#prodetails .single-pro-details select:focus{
+    outline: none;
+}
+#prodetails .single-pro-details input{
+    width: 40px;
+    height: 37px;
+    padding-left: 10px;
+    margin-right: 10px;
+    font-size: 15px;
+}
+#prodetails .single-pro-details input:focus{
+    outline: none;
+}
+#prodetails .single-pro-details button{
+    background-color: #088178;
+    color: #fff;
+    border: none;
+    height: 37px;
+    width: 120px;
+}
+#prodetails .single-pro-details span{
+    line-height: 25px;
+    color: #606063;
 }

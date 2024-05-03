@@ -32,13 +32,108 @@
 
     <section id="prodetails">
         <div class="single-pro-image">
-            <img src="image/f1.jpg" width="100%" id="mainimg">
-         <div class="small-img-group">
-            <div class="small-img-col">
-                <img src="/image/f1.jpg" alt="">
+            <img src="image/f1.jpg" width="100%" id="mainImg">
+            <div class="small-img-group">
+                <div class="small-img-col">
+                    <img src="/image/f1.jpg" width="100%" class="samllimg" alt="image">
+                </div>
+                <div class="small-img-col">
+                    <img src="/image/f2.jpg" width="100%" class="samllimg"  alt="image">
+                </div>
+                <div class="small-img-col">
+                    <img src="/image/f3.jpg" width="100%" class="samllimg"  alt="image">
+                </div>
+                <div class="small-img-col">
+                    <img src="/image/f4.jpg" width="100%" class="samllimg"  alt="image">
+                </div>
             </div>
-         </div>
         </div>
+        <div class="single-pro-details">
+            <h6>Home / T-Shirt</h6>
+            <h4>Mens Fashion T-Shirt</h4>
+            <h2>$80</h2>
+            <select>
+                <option>Select</option>
+                <option>XL</option>
+                <option>XXL</option>
+                <option>Small</option>
+                <option>Large</option>
+            </select>
+            <input type="number" value="1">
+            <button class="normal">Add To Cart</button>
+            <span>
+                <h4>Produce Details</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum suscipit nisi ipsum nemo beatae
+                    enim minima blanditiis ratione assumenda velit?Lorem ipsum dolor, sit amet consectetur adipisicing
+                    elit. Porro esse temporibus beatae itaque, voluptas Lorem ipsum, dolor sit amet consectetur
+                    adipisicing elit. Voluptatem voluptatibus minima nesciunt reprehenderit quasi veritatis similique.
+                    Totam amet, repellendus dolor minus nulla doloremque, ullam eaque dolorem neque culpa nisi officiis.
+                </p>
+            </span>
+        </div>
+    </section>
+
+    <section id="product1" class="section-p1">
+        <h2>Featured Products</h2>
+        <p>Summer collection New morden design.</p>
+        <div class="pro-container">
+            <div class="pro">
+                <img src="/image/f1.jpg" alt="">
+                <div class="dis">
+                    <span>adidas</span>
+                    <h5>Cartoon Astranout T-Shirts</h5>
+                    <h4>$80 <button><img src="/image/icons8-shopping-cart-50.png"></button></h4>
+
+                </div>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+            </div>
+
+            <div class="pro">
+                <img src="/image/f2.jpg" alt="">
+                <div class="dis">
+                    <span>adidas</span>
+                    <h5>Cartoon Astranout T-Shirts</h5>
+                    <h4>$80 <button><img src="/image/icons8-shopping-cart-50.png"></button></h4>
+                </div>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+            </div>
+            <div class="pro">
+                <img src="/image/f3.jpg" alt="">
+                <div class="dis">
+                    <span>adidas</span>
+                    <h5>Cartoon Astranout T-Shirts</h5>
+                    <h4>$80 <button><img src="/image/icons8-shopping-cart-50.png"></button></h4>
+                </div>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+            </div>
+            <div class="pro">
+                <img src="/image/f4.jpg" alt="">
+                <div class="dis">
+                    <span>adidas</span>
+                    <h5>Cartoon Astranout T-Shirts</h5>
+                    <h4>$80 <button><img src="/image/icons8-shopping-cart-50.png"></button></h4>
+                </div>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+            </div>
+
+        </div>
+
     </section>
 
     <section id="newsletter" class="section-p2" class="section-m2">
@@ -97,6 +192,15 @@
             <img src="/image/pay.png" class="pay1">
         </div>
     </footer>
+
+    <script>
+        var mainimg = document.getElementById("mainImg")
+        var samllimg = document.getElementsByClassName("samllimg")
+
+        samllimg[0].onclick = function(){
+            samllimg.src = samllimg[0].src
+        }
+    </script>
 </body>
 
 </html>
