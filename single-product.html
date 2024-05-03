@@ -32,19 +32,19 @@
 
     <section id="prodetails">
         <div class="single-pro-image">
-            <img src="image/f1.jpg" width="100%" id="mainImg">
+            <img src="image/f1.jpg" width="100%" height="350px" id="mainImg">
             <div class="small-img-group">
                 <div class="small-img-col">
                     <img src="/image/f1.jpg" width="100%" class="samllimg" alt="image">
                 </div>
                 <div class="small-img-col">
-                    <img src="/image/f2.jpg" width="100%" class="samllimg"  alt="image">
+                    <img src="/image/f2.jpg" width="100%" class="samllimg" alt="image">
                 </div>
                 <div class="small-img-col">
-                    <img src="/image/f3.jpg" width="100%" class="samllimg"  alt="image">
+                    <img src="/image/f3.jpg" width="100%" class="samllimg" alt="image">
                 </div>
                 <div class="small-img-col">
-                    <img src="/image/f4.jpg" width="100%" class="samllimg"  alt="image">
+                    <img src="/image/f4.jpg" width="100%" class="samllimg" alt="image">
                 </div>
             </div>
         </div>
@@ -63,15 +63,22 @@
             <button class="normal">Add To Cart</button>
             <span>
                 <h4>Produce Details</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum suscipit nisi ipsum nemo beatae
-                    enim minima blanditiis ratione assumenda velit?Lorem ipsum dolor, sit amet consectetur adipisicing
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum suscipit nisi ipsum nemo
+                    beatae
+                    enim minima blanditiis ratione assumenda velit?Lorem ipsum dolor, sit amet consectetur
+                    adipisicing
                     elit. Porro esse temporibus beatae itaque, voluptas Lorem ipsum, dolor sit amet consectetur
-                    adipisicing elit. Voluptatem voluptatibus minima nesciunt reprehenderit quasi veritatis similique.
-                    Totam amet, repellendus dolor minus nulla doloremque, ullam eaque dolorem neque culpa nisi officiis.
+                    adipisicing elit. Voluptatem voluptatibus minima nesciunt reprehenderit quasi veritatis
+                    similique.
+                    Totam amet, repellendus dolor minus nulla doloremque, ullam eaque dolorem neque culpa nisi
+                    officiis.
                 </p>
             </span>
+
         </div>
+
     </section>
+
 
     <section id="product1" class="section-p1">
         <h2>Featured Products</h2>
@@ -197,8 +204,17 @@
         var mainimg = document.getElementById("mainImg")
         var samllimg = document.getElementsByClassName("samllimg")
 
-        samllimg[0].onclick = function(){
-            samllimg.src = samllimg[0].src
+        samllimg[0].onclick = function () {
+            mainimg.src = samllimg[0].src
+        }
+        samllimg[1].onclick = function () {
+            mainimg.src = samllimg[1].src
+        }
+        samllimg[2].onclick = function () {
+            mainimg.src = samllimg[2].src
+        }
+        samllimg[3].onclick = function () {
+            mainimg.src = samllimg[3].src
         }
     </script>
 </body>
