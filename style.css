@@ -500,7 +500,7 @@
 /* index page close */
 
 
-@media only screen and  (max-width:768px) {
+@media only screen and (max-width:768px){
     *{
         overflow-x: hidden; 
     }
@@ -540,19 +540,18 @@
     #sm-banner{
         margin-left: -50px;
     }
-    .pro-container{
-        padding: 0;
-        width: 100%;
-        justify-content: space-evenly;
-    }
-    #product1 .pro{
+    
+    #product1{
+        width: 112.99%;
         
-    
     }
-    
+    #product1 .pro-container{
+        width: 90%;
+        padding: 0;
+    }
     #feature{
        width:100%;
-       padding: 0;
+       padding: 0 ;
        justify-content: space-evenly;
     }
 
@@ -564,6 +563,16 @@
     }
     #newsletter{
         height: 200px;
+    }
+    #banner3{
+        width: 100%;
+        border: 2px solid black;
+        padding: 0;
+        margin: 0;
+        align-items: center;
+    }
+    #banner3 .banner-box{
+        width: 90%;
     }
     
 }
