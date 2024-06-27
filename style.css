@@ -772,3 +772,22 @@
      z-index: -9;
 
 }
+#page-header.about-header{
+  background-image: url(/image/banner\ about.png);
+}
+#about-head{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+#about-head img{
+    width: 50%;
+    height: auto;
+    padding-top: 30px
+}
+#about-head h2{
+    font-size: 40px;
+}
+#about-head p{
+    font-size: 20px;
+}
